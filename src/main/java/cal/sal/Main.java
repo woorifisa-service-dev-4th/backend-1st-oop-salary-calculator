@@ -1,11 +1,12 @@
 package cal.sal;
 
-import cal.sal.UserInput.UserInput;
-import cal.sal.UserInput.UserInputUtil;
+import cal.sal.factory.UserInputFactory;
+import cal.sal.userinput.UserInput;
 
 public class Main {
 	public static void main(String[] args) {
-		UserInput userInput = UserInputUtil.getUserInput();
 
+		UserInput userInput = UserInputFactory.createUserInput();
 	}
+
 }
