@@ -25,7 +25,7 @@
 - 주급/ 월급에 따라 환산 총액 출력
 
 
-<br><br>
+<br>
 
 ### 💡 실행 방법
 1.파일 다운로드
@@ -36,4 +36,6 @@ https://files.slack.com/files-pri/T086KSV1EPK-F08CHA90TJA/download/java-salary-c
 ```
 java -jar java-salary-calculator-1.0-snapshot.jar
 ```
+
+<br>
 
