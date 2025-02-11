@@ -1,6 +1,6 @@
 package cal.sal.WorkSchedule;
 
-import cal.sal.UserInput.UserInput;
+import cal.sal.userinput.UserInput;
 
 public class MonthlyWorkSchedule implements WorkSchedule {
 	//월간 근무 시간 계산
