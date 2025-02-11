@@ -1,6 +1,6 @@
 package cal.sal.workschedule;
 
-import cal.sal.userinput.UserInput;
+import cal.sal.userInput.UserInput;
 
 public class WeeklyWorkSchedule implements WorkSchedule {
 	// 주간 근무 시간 계산

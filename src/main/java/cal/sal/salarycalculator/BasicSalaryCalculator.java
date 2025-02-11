@@ -2,7 +2,7 @@ package cal.sal.salarycalculator;
 
 import java.math.BigDecimal;
 
-import cal.sal.userinput.UserInput;
+import cal.sal.userInput.UserInput;
 
 public class BasicSalaryCalculator implements ISalaryCalculator {
 
