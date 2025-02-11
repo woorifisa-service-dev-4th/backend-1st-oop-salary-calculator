@@ -11,7 +11,7 @@ public class UserInputUtil {
 		BigDecimal hourlyWage = scanner.nextBigDecimal();
 
 		System.out.println("일일 근무 시간을 입력해주세요 : ");
-		int dailyWorkHours = scanner.nextInt();
+		double dailyWorkHours = scanner.nextInt();
 
 		System.out.println("일주 근무 일수를 입력해주세요 : ");
 		int weeklyWorkDays = scanner.nextInt();

@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class UserInput {
 	BigDecimal hourlyWage; // 시급
-	int dailyWorkHours; // 일일 근무시간
+	double dailyWorkHours; // 일일 근무시간(분 포함)
 	int weeklyWorkDays; // 일주 근무일수
 	int monthlyOvertimeHours; // 월 연장 근무 시간
 
-	public UserInput(BigDecimal hourlyWage, int dailyWorkHours, int weeklyWorkDays, int monthlyOvertimeHours) {
+	public UserInput(BigDecimal hourlyWage, double dailyWorkHours, int weeklyWorkDays, int monthlyOvertimeHours) {
 		this.hourlyWage = hourlyWage;
 		this.dailyWorkHours = dailyWorkHours;
 		this.weeklyWorkDays = weeklyWorkDays;
@@ -19,7 +19,7 @@ public class UserInput {
 		return hourlyWage;
 	}
 
-	public int getDailyWorkHours() {
+	public double getDailyWorkHours() {
 		return dailyWorkHours;
 	}
 
