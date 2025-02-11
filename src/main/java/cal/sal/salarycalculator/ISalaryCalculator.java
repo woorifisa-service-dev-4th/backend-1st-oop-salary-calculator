@@ -1,8 +1,8 @@
-package SalaryCalculator;
+package cal.sal.salarycalculator;
 
 import java.math.BigDecimal;
 
-import cal.sal.UserInput.UserInput;
+import cal.sal.userinput.UserInput;
 
 public interface ISalaryCalculator {
 	BigDecimal calculateGrossSalary(UserInput userInput);

@@ -1,7 +1,7 @@
 package cal.sal;
 
-import cal.sal.UserInput.UserInput;
-import cal.sal.UserInput.UserInputUtil;
+import cal.sal.userinput.UserInput;
+import cal.sal.userinput.UserInputUtil;
 
 public class Main {
 	public static void main(String[] args) {

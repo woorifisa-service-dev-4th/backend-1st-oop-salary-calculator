@@ -1,4 +1,4 @@
-package cal.sal.UserInput;
+package cal.sal.userinput;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
