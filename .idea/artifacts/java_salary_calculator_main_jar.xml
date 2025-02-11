@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="java-salary-calculator.main:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/java_salary_calculator_main_jar</output-path>
-    <root id="archive" name="java-salary-calculator.main.jar" />
-  </artifact>
-</component>
