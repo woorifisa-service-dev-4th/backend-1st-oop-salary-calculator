@@ -9,13 +9,13 @@ import cal.sal.utils.PrintUtils;
 public class UserInputFactory {
 	public static UserInput createUserInput() {
 		PrintUtils.printHourlyWage();
-		BigDecimal hourlyWage = InputUtils.InputHourlyWage();
+		BigDecimal hourlyWage = InputUtils.inputHourlyWage();
 		PrintUtils.printDailyWorkhours();
-		double dailyWorkHours = InputUtils.InputDailyHours();
+		double dailyWorkHours = InputUtils.inputDailyHours();
 		PrintUtils.printWeeklyWorkdays();
-		int weeklyWorkDays = InputUtils.InputWeeklyWorkDays();
+		int weeklyWorkDays = InputUtils.inputWeeklyWorkDays();
 		PrintUtils.printMonthlyOvertimeHours();
-		double monthlyOvertimeHours = InputUtils.InputMonthlyOvertimeHours();
+		double monthlyOvertimeHours = InputUtils.inputMonthlyOvertimeHours();
 
 		return new UserInput(hourlyWage, dailyWorkHours, weeklyWorkDays, monthlyOvertimeHours);
 	}
