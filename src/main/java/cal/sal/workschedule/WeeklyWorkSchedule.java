@@ -1,4 +1,4 @@
-package cal.sal.WorkSchedule;
+package cal.sal.workschedule;
 
 import cal.sal.userinput.UserInput;
 
