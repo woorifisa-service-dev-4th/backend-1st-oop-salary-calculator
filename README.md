@@ -27,8 +27,9 @@
 
 <br><br>
 
-### 실행 방법
+### 💡 실행 방법
 1.파일 다운로드
+
 https://files.slack.com/files-pri/T086KSV1EPK-F08CHA90TJA/download/java-salary-calculator-1.0-snapshot.jar?origin_team=T086KSV1EPK
 
 2.실행
