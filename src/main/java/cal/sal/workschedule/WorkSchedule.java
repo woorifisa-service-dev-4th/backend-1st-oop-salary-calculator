@@ -1,6 +1,6 @@
 package cal.sal.workschedule;
 
-import cal.sal.userinput.UserInput;
+import cal.sal.userInput.UserInput;
 
 public interface WorkSchedule {
 	double calculateWorkHours(UserInput userInput);
